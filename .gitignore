@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Keil MDK 编译输出（.o/.d/.axf/.hex/.map/.lst/.htm 等）
+MDK-ARM/F411_ICM42670/
+MDK-ARM/**/*.o
+MDK-ARM/**/*.d
+MDK-ARM/**/*.crf
+MDK-ARM/**/*.axf
+MDK-ARM/**/*.hex
+MDK-ARM/**/*.map
+MDK-ARM/**/*.lst
+MDK-ARM/**/*.dep
+MDK-ARM/**/*.lnp
+MDK-ARM/**/*.htm
+MDK-ARM/**/*.build_log.htm
+MDK-ARM/**/*.iex
+MDK-ARM/**/*.tra
+MDK-ARM/**/*.bak
+
+# Keil 用户界面布局（每台电脑/用户不同）
+*.uvguix.*
+*.uvgui.*
+
+# Claude Code 本地配置
+.claude/
