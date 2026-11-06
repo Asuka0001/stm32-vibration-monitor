@@ -118,6 +118,8 @@ v_rms = sqrt( Σ v_k² )
 
 ## 开发历程
 
+> 项目早期在 Keil5 + STM32CubeMX 中开发，未使用 Git；仓库初始提交为阶段性归档，后续修改按正常提交记录进行。
+
 本项目经历了两个版本，第一版代码保留在 [`archive/adxl345-time-domain`](https://github.com/Asuka0001/stm32-vibration-monitor/tree/archive/adxl345-time-domain) 分支。
 
 **第一版：STM32F103 + ADXL345，时域积分**
